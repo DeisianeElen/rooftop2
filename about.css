@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 45px;
+}
+
+
+.list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home, .menu, .about, .pages, .blog, .gallery {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+
+.about {
+    color: #ad9966;
+}
+
+
+.logo {
+    width: 60px;
+}
+
+
+.section2 {
+    background-image: url(img/header-bg.png);
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textbanner {
+    text-align: center;
+}
+
+
+.rooftop {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+
+.hr {
+    margin-bottom: 30px;
+    width: 500px;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.afine {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.section3{
+    margin-left: 35px;
+    margin-top: -100px;  
+}
+
+
+.imgpao{
+    position: relative;
+    margin-left: 75px;
+    top: 200px;
+    margin-right: 35px;
+}
+
+
+.textpao{
+    position: relative;
+    margin-left: 650px;
+    top: -200px;
+}
+
+
+.AboutRooftopDinning{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    margin-bottom: 30px;
+}
+
+
+.lorem{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+}
+.section6{
+    margin-left: 75px;
+    margin-top: -100px;
+}
+
+
+.chefs{
+    margin-left: 120px;
+    margin-top: 350px;
+}
+
+
+.titlechef{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.textchef{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+.assinatura{
+    margin-top: 15px;
+}
+
+
+.fotochef{
+    position: relative;
+    margin-left: 650px;
+    margin-top: -590px;
+}
+
+
+.section7{
+   position: relative;
+   margin-right: 75px;
+   margin-left: 75px;
+   margin-top: 30px;
+   justify-items: center;
+   align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.setaesquerda{
+    position: relative;
+    margin-right: 4px;
+    margin-left: -650px;
+    top: -200px;
+}
+
+
+.setadireita{
+    position: relative;
+    margin-right: 4px;
+    margin-left: 1250px;
+    top: -220px;
+}
+.textimg{
+    position: absolute;
+    padding: 33px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    top: 50%;
+    left: 450px;
+    width: -45%;
+    margin-top: -50px;
+}
+.textimg{
+    text-align: center;
+}
+.main{
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 40px;
+}
+.main::after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    width: 120px;
+    height: 1px;
+    margin-left: -60px;
+}
+
+
+.chicken{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px
+}
+
+
+.section9{
+    background-color: #04091e;
+    width: 100%;
+    padding: 60px 80px 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.div1, .div2, .div3, .div4, .div5 {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    position: static;
+    margin: 0;
+}
+.topproducts, .quicklinks, .features, .resources, .newsletter{
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.input{
+    margin-top: 20px;
+    border: #777777;
+    background-color: #77777700;
+    height: 15px;
+    width: 200px;
+}
+.p1, .p2, .p3, .p4, .p5{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.section10{
+    background-color: #04091e;
+    width: 100%;
+}
+.textpequeno{
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 150px;
+}
+
+
+.text1{
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.colorlib{
+    color: #ad9966;
+}
